@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Fotografi</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        #about {
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 2rem auto;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galeri Fotografi Saya</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#about">Tentang</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Selamat Datang di Galeri Fotografi</h2>
+        <p>Menangkap keindahan dunia melalui lensa.</p>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <img src="foto/1.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/2.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/3.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/4.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/5.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/6.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/7.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/8.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/9.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/10.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/11.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/12.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/13.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/14.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/15.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/16.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/17.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/18.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/19.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/20.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/21.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/22.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/23.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/24.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/25.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/26.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/27.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/28.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/29.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/30.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/31.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/32.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/33.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/34.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/35.jpg" alt="foto 1" class="img-fluid">
+        <img src="foto/36.jpg" alt="foto 1" class="img-fluid">
+    </section>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang fotografer yang mencintai keindahan alam dan seni visual. Website ini dibuat untuk berbagi karya saya dengan dunia.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nama Anda. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
+
